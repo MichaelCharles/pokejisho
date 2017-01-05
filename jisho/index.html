@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PokeJisho</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="http://res.cloudinary.com/mca62511/image/upload/c_scale,w_108/v1481167639/icon_111060_1_c0fxr0.png">
+    
+    <!-- Google -->
+    <meta name="description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
+    <meta name="keywords" content="japanese, handwriting, tool, cute, font, stroke, order">
+    <meta name="application-name" content="Japanese Handwriting Tool">
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Japanese Handwriting Tool">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://res.cloudinary.com/mca62511/image/upload/v1481167905/16578701831_e1b82191a6_b_1_k5zmcc.jpg">
+    <meta property="og:description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
+
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Japanese Handwriting Tool">
+    <meta name="twitter:description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
+    <meta name="twitter:image" content="http://res.cloudinary.com/mca62511/image/upload/v1481167905/16578701831_e1b82191a6_b_1_k5zmcc.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch' href='ja-fonts/mikes-japanese-fonts.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="flexbox">
+    <div class="search-wrapper">
+        <input id="term" type="text" value="">
+        </input>
+    </div>
+
+
+    <div id="render-area">
+        <span id="priority"></span>
+        <!--
+        <a href="#">
+        <div class="result">
+            <div class="english-result">
+                        Result
+            </div>
+            <div class="japanese-result">
+                        さがしたもの
+            </div>
+        </div>
+        </a>
+        -->
+        <span id="results"></span>
+    </div>
+
+</div>
+
+</body>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    
+    <script src="js/jisho.js"></script>
+    <script src="js/index.js"></script>
+
+</html>
