@@ -80,6 +80,7 @@ function renderResult(array) {
     for (i = 0; i < array.length; i++) {
         var result = array[i];
         result.us = result.english.replace(/ /g, "_"); // Underscored Result Name for URL
+        result.urlJA = "http://wiki.xn--rckteqa2e.com/wiki/" + result.japanese;
         if (result.type === "move") {
             result.url = "http://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(move)";
         } else if (result.type === "Pokémon") {
@@ -91,8 +92,8 @@ function renderResult(array) {
         } else {
             result.url = result.type;
         }
-        $resultRow = $("<a href='" + result.url + "' target='_blank'></a>")
-        $resultRow.html('<div class="result"> <div class="english-result">' + result.english + '</div> <div class="japanese-result">' + result.japanese + '</div> </div>')
+        $resultRow = $('<div class="result"></div>')
+        $resultRow.html('<a href="' + result.url + '" target="_blank"><div class="english-result">' + result.english + '</div></a><a href="' + result.urlJA + '" target="_blank"><div class="japanese-result">' + result.japanese + '</div></a>')
         if (result.priority === 1) {
             $("#priority").append($resultRow);
         } else {
