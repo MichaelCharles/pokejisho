@@ -1,14 +1,11 @@
-html,
-body {
-    min-height: 100%;
-}
-
 body {
     background-color: #f2f2f2;
     color: #212121;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    width: 100%;
+    
 }
 
 a:link,
@@ -26,15 +23,15 @@ a:hover {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    padding: 1em;
 }
 
 .main-logo {
     max-width: 500px;
     width: 80%;
     margin: 0 auto;
+    margin-top: 1em;
     height: 50vh;
-    background: url("/img/big-logo.gif");
+    background: url("/img/big-logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,8 +49,9 @@ a:hover {
     background: white;
     padding: 1em;
     text-align:center;
-    width: 100px;
-    margin: 1em;
+    max-width: 100px;
+    width: 100%;
+    margin: 0.5em;
     box-shadow: 0px 2px 4px 0px rgba(33,33,33,0.3);
     text-transform: uppercase;
     color: #212121;
