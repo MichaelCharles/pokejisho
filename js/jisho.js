@@ -1,10 +1,24 @@
-$("document").ready(function() {
+var currentLanguage = "en";
+var currentLocation = window.location.href;
 
+$("document").ready(function() {
+    if (currentLocation.indexOf("/ja/") !== -1) {
+        currentLanguage = "ja";
+    }
+    
+    $(".help-button").click(function(){
+        $("#content").fadeIn(500);
+        $(".help-button").fadeOut(500);
+    });
+    
     $("#term").keyup(function() {
+        $("#content").fadeOut(500);
+        $(".help-button").fadeIn(500);
         $("#priority").html("");
         $("#results").html("");
-        console.log(this.value.length)
         if (this.value.length > 2) {
+            $("#content").hide();
+            $(".help-button").show();
             searchFor(this.value, true);
         }
     });
@@ -50,7 +64,19 @@ function searchFor(term, convertKana) {
 }
 
 function renderResult(array) {
-
+    if (array.length === 0 &&
+        $("#alert").text() === "") {
+        $("#alert").hide(); 
+        if (currentLanguage === "en") {
+            $("#alert").html("<a href='https://goo.gl/forms/437m5RF1bPmflbJp1' target='_blank' class='alert'>Can't find what you're looking for? Tell us what's missing!");
+        } else {
+            $("#alert").html("<a href='https://goo.gl/forms/437m5RF1bPmflbJp1' target='_blank' class='alert'>見つけませんでしたか？　見つけられなかったものを教えてください！");
+        }
+        $("#alert").fadeIn(500);
+    }
+    if (array.length > 0) {
+        $("#alert").html("");
+    }
     for (i = 0; i < array.length; i++) {
         var result = array[i];
         result.us = result.english.replace(/ /g, "_"); // Underscored Result Name for URL

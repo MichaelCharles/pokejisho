@@ -1,13 +1,30 @@
 <html>
+
 <head>
-<title>PokéJisho</title>
-<script>
-window.location.replace("http://www.pokejisho.com/en/jisho");
-</script>
+    <title>PokéJisho</title>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-74758128-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        window.location.replace("http://www.pokejisho.com/en/jisho");
+    </script>
 
     <!-- Fav Icon -->
     <link rel="icon" type="image/png" href="http://pokejisho.com/favicon.png">
-    
+
     <!-- Google -->
     <meta name="description" content="Look up the names of Pokémon, abilities, items, moves, and natures in Japanese and English.">
     <meta name="keywords" content="japanese, english, pokémon, pokemon, pocket monsters, dictionary, jisho, sun, moon 辞書, ポケモン, 英語, 日本語">
@@ -26,7 +43,9 @@ window.location.replace("http://www.pokejisho.com/en/jisho");
     <meta name="twitter:description" content="Look up the names of Pokémon, abilities, items, moves, and natures in Japanese and English.">
     <meta name="twitter:image" content="http://pokejisho.com/img/share.jpg">
 </head>
+
 <body>
-<p>If you are not redirected, please click <a href="http://pokejisho.com/jisho">here</a>.</p>
+    <p>If you are not redirected, please click <a href="http://pokejisho.com/jisho">here</a>.</p>
 </body>
+
 </html>
