@@ -372,6 +372,12 @@ var jisho = [{
     "roumaji": "Aurora Beam"
 }, {
     "type": "move",
+    "english": "Aurora Veil",
+    "japanese": "オーロラベール",
+    "katakana": "オーロラベール",
+    "roumaji": "Aurora Beam"
+}, {
+    "type": "move",
     "english": "Hyper Beam",
     "japanese": "はかいこうせん",
     "katakana": "ハカイコウセン",

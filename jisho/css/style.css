@@ -47,6 +47,17 @@ body {
     padding: 1em;
 }
 
+#content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content .logo {
+    width: 90%;
+    
+}
 
 @media (max-width: 600px) {
     .search-wrapper,
