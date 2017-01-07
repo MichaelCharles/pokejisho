@@ -75,7 +75,6 @@ nav .container h1 {
 
 .result {
     display: flex;
-    justify-content: space-between;
 }
 
 .english-result,
@@ -98,15 +97,10 @@ nav .container h1 {
 #results a {
     color: #212121;
     text-decoration: none;
-}
-
-.result a {
     width: 100%;
 }
 
 .result div {
-    width: 100%;
-    box-sizing: border-box;
     padding: 1em;
 }
 
