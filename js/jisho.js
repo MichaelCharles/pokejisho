@@ -1,7 +1,25 @@
+/* global jisho */
+/* global $ */
+
 var currentLanguage = "en";
 var currentLocation = window.location.href;
 
+
 $("document").ready(function() {
+    var placeholderID = Math.floor(Math.random() * jisho.length);
+    var phD = jisho[placeholderID];
+    var placeholderName = phD.english
+    if (phD.english !== phD.roumaji) {
+        placeholderName += ", " + phD.roumaji
+    }
+    placeholderName += ", " + phD.japanese;
+    if (phD.katakana !== phD.japanese) {
+        placeholderName += ", " + phD.katakana
+    }
+    placeholderName += "...";
+    $("#term").attr("placeholder", placeholderName);
+    
+    
     if (currentLocation.indexOf("/ja/") !== -1) {
         currentLanguage = "ja";
     }
