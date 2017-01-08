@@ -79,5 +79,6 @@ function toKatakana(string) {
     string = string.replaceAll("ゅ", "ュ");
     string = string.replaceAll("ょ", "ョ");
     string = string.replaceAll("っ", "ッ");
+    string = string.replaceAll("ぇ", "ェ");
     return string;
 }

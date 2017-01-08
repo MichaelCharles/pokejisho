@@ -6,7 +6,7 @@ body {
 body {
     background-color: #f2f2f2;
     color: #212121;
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto", sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Japanese", "Roboto", sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -86,7 +86,7 @@ nav .container h1 {
 }
 
 .result div:hover {
-    box-shadow: 0px 4px 4px 0px rgba(33,33,33,0.3);
+    box-shadow: 0px 4px 4px 0px rgba(33, 33, 33, 0.3);
 }
 
 .english-result {
@@ -139,15 +139,15 @@ nav .container h1 {
 }
 
 .speech-bubble:after {
-  content: ' ';
-  position: absolute;
-  width: 0;
-  height: 0;
-  right: -2em;
-  top: 50px;
-  border: 20px solid;
-  border-color:  transparent transparent #fff #fff ;
-  z-index: 10;
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -2em;
+    top: 50px;
+    border: 20px solid;
+    border-color: transparent transparent #fff #fff;
+    z-index: 10;
 }
 
 #alert {
@@ -155,6 +155,10 @@ nav .container h1 {
     border: 1px transparent solid;
     margin-top: 2em;
 }
+
+.speech-bubble br {
+    display: none;
+} 
 
 @media (max-width: 600px) {
     .search-wrapper,
@@ -168,5 +172,8 @@ nav .container h1 {
     }
     .fumika img {
         width: 90px;
+    }
+    .speech-bubble br {
+        display: block;
     }
 }

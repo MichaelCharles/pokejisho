@@ -4,32 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>ポケ辞書</title>
-
+    
     <!-- Fav Icon -->
     <link rel="icon" type="image/png" href="http://pokejisho.com/favicon.png">
-
+    
     <!-- Google -->
-    <meta name="description" content="Look up the names of Pokémon, abilities, items, moves, and natures in Japanese and English.">
+    <meta name="description" content="ポケ辞書はポケモンの和英辞書です。ポケモンの名前、技、アイテム、能力、性格を検索ボックスに入力して、日本語と英語の両方で検索することができます。">
     <meta name="keywords" content="japanese, PokéJisho, english, pokémon, pokemon, pocket monsters, dictionary, jisho, sun, moon 辞書, ポケモン, 英語, 日本語, ポケ辞書">
     <meta name="application-name" content="ポケ辞書">
-
+    
     <!-- Facebook -->
     <meta property="og:title" content="ポケ辞書">
     <meta property="og:type" content="article">
     <meta property="og:image" content="http://pokejisho.com/img/share.jpg">
-    <meta property="og:description" content="Look up the names of Pokémon, abilities, items, moves, and natures in Japanese and English.">
-
-
+    <meta property="og:description" content="ポケ辞書はポケモンの和英辞書です。ポケモンの名前、技、アイテム、能力、性格を検索ボックスに入力して、日本語と英語の両方で検索することができます。">
+    
+    
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="ポケ辞書">
-    <meta name="twitter:description" content="Look up the names of Pokémon, abilities, items, moves, and natures in Japanese and English.">
+    <meta name="twitter:description" content="ポケ辞書はポケモンの和英辞書です。ポケモンの名前、技、アイテム、能力、性格を検索ボックスに入力して、日本語と英語の両方で検索することができます。">
     <meta name="twitter:image" content="http://pokejisho.com/img/share.jpg">
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+    
+    <link rel="stylesheet" href="/ja-fonts/mikes-japanese-fonts.css">
     <link rel="stylesheet" href="/css/jisho.css">
+    
     
     
     <meta name="theme-color" content="#CDDC39">
@@ -44,7 +46,7 @@
                 <div class="left-nav"><img src="/favicon.png">
                     <h1>ポケ辞書</h1>
                 </div>
-                <div class="right-nav"><a href="#" class="help-button" style="display: none">説明</a></a>
+                <div class="right-nav"><a href="#" class="help-button" style="display: none">ヘルプ</a></a>
                 </div>
             </div>
         </nav>
@@ -56,18 +58,6 @@
 
         <div id="render-area">
             <span id="priority"></span>
-            <!--
-        <a href="#">
-        <div class="result">
-            <div class="english-result">
-                        Result
-            </div>
-            <div class="japanese-result">
-                        さがしたもの
-            </div>
-        </div>
-        </a>
-        -->
             <span id="results"></span>
             <div id="alert"></div>
         </div>
@@ -75,9 +65,9 @@
             <div class="container">
                 <div class="left-description">
                     <div class="speech-bubble">
-                        <p><strong>ようこそポケ辞書へ。	私は書桂です。</strong></p>
-                        <p>ポケモンの名前、技、アイテム、能力、せいかくを検索ボックスに書いて、日本語と英語の両方で呼び出されているものを見つけることができます。</p>
-                        <p>英語と日本語で探すことできます。</p>
+                        <p><strong>ようこそポケ辞書へ。	<br>探見です。</strong></p>
+                        <p>ポケモンの名前、技、アイテム、能力、性格を検索ボックスに入力して、日本語と英語の両方で検索することができます。</p>
+                        <p>検索結果をクリックすることで、左側の英語は<a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page" target="_blank">Bulbapedia</a>へ、右側の日本語は<a href="http://wiki.xn--rckteqa2e.com/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" target="_blank">ポケモンwiki</a>へ移動し、より詳しくポケモンについて知ることができます。</p>
                         <p><a href="/en/jisho/">English instructions can be found here.</a></p>
                     </div>
                 </div>
