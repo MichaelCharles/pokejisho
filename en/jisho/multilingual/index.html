@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PokéJisho Multilingual</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="http://pokejisho.com/favicon.png">
+
+    <!-- Google -->
+    <meta name="description" content="PokéJisho Multilingual is a global version of the PokéJisho app. Search in English, Japanese, French, German, Spanish, Italian, or Korean!">
+    <meta name="keywords" content="japanese, PokéJisho, english, pokémon, pokemon, pocket monsters, dictionary, jisho, sun, moon 辞書, ポケモン, 英語, 日本語, ポケ辞書">
+    <meta name="application-name" content="PokéJisho Multilingual">
+
+    <!-- Facebook -->
+    <meta property="og:title" content="PokéJisho Multilingual">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://pokejisho.com/img/share.jpg">
+    <meta property="og:description" content="PokéJisho Multilingual is a global version of the PokéJisho app. Search in English, Japanese, French, German, Spanish, Italian, or Korean!">
+
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="PokéJisho Multilingual">
+    <meta name="twitter:description" content="PokéJisho Multilingual is a global version of the PokéJisho app. Search in English, Japanese, French, German, Spanish, Italian, or Korean!">
+    <meta name="twitter:image" content="http://pokejisho.com/img/share.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="/ja-fonts/mikes-japanese-fonts.css">
+    <link rel="stylesheet" href="/css/multilingual.css">
+
+    <meta name="theme-color" content="#CDDC39">
+
+
+    <script src="/js/cookies.js"></script>
+</head>
+
+<body>
+
+    <div class="flexbox">
+        <nav>
+            <div class="container">
+                <div class="left-nav"><img src="/favicon.png">
+                    <h1>PokéJisho</h1>
+                </div>
+                <div class="right-nav"><a href="#" class="help-button" style="display: none">Help</a></a>
+                </div>
+            </div>
+        </nav>
+        <div class="search-wrapper">
+            <input id="term" type="text" value="" placeholder="">
+            </input>
+            <p>Show my results in <select name="lang1" id="lang1">
+<option value="chinese">Chinese</option>
+<option value="english" selected>English</option>
+<option value="french">French</option>
+<option value="german">German</option>
+<option value="italian">Italian</option>
+<option value="japanese">Japanese</option>
+<option value="korean">Korean</option>
+<option value="spanish">Spanish</option>
+</select> and <select name="lang2" id="lang2">
+<option value="chinese">Chinese</option>
+<option value="english">English</option>
+<option value="french">French</option>
+<option value="german">German</option>
+<option value="italian">Italian</option>
+<option value="japanese">Japanese</option>
+<option value="korean">Korean</option>
+<option value="spanish" selected>Spanish</option>
+</select>.</p>
+        </div>
+
+
+        <div id="render-area">
+            <span id="priority"></span>
+            <span id="results"></span>
+            <div id="alert"></div>
+        </div>
+        <div id="content">
+            <div class="container">
+                <div class="left-description">
+                    <div class="speech-bubble">
+                        <p><strong>Hola, bonjour, and alola! My name is Sagumi.</strong></p>
+                        <p>This is a multilingual version of PokéJisho. You can search in more languages, but this version might be more buggy. Also, all results will take you to <a href="http://bulbapedia.bulbagarden.net/wiki/Main_Page" target="_blank">Bulbapedia</a>.</p>
+                        <p>Take note: My data on Chinese names is very lacking, and the <a href="http://pokejisho.com/en/jisho">main app</a> has better support for searching in Japanese.</a></p>
+
+                    </div>
+                </div>
+                <div class="fumika"><img src="/img/jishogirl.png"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+<script src="/js/multilingual/jisho.js"></script>
+<script src="/js/multilingual/multilingual-data.js"></script>
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-74758128-4', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</html>

@@ -1,0 +1,171 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #212121;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Japanese", "Roboto", sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #536DFE;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1em 0;
+}
+
+nav .container div {
+    display: flex;
+    align-items: center;
+}
+
+nav .container img {
+    display: inline-block;
+    height: 32px;
+}
+
+nav .container h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    margin: 0 0.5em;
+}
+
+.search-wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+#term {
+    background: white;
+    width: 100%;
+    padding: 1em;
+    max-width: 600px;
+    box-shadow: 0px 5px 10px 0px rgba(33, 33, 33, 0.3);
+    border: 0px transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#render-area {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+    max-width: 600px;
+}
+
+#priority a,
+#results a {
+    color: #212121;
+    text-decoration: none;
+    
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px rgba(33,33,33,0.3);
+    margin-bottom: 1px;
+}
+
+.result div {
+    width: 45%;
+    padding: 1em;
+    display: inline-block;
+}
+
+#content {
+    max-width: 600px;
+    width: 100%;
+    margin: 1em auto;
+    color: #646464;
+    margin-top: 2em;
+}
+
+#content .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-description {
+    margin-right: 1em;
+}
+
+.fumika {
+    overflow: hidden;
+    min-width: 150px;
+}
+
+.fumika img {
+    width: 150px;
+}
+
+.speech-bubble {
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 1em;
+    z-index: 20;
+}
+
+.speech-bubble:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -2em;
+    top: 50px;
+    border: 20px solid;
+    border-color: transparent transparent #fff #fff;
+    z-index: 10;
+}
+
+#alert {
+    display: none;
+    border: 1px transparent solid;
+    margin-top: 2em;
+}
+
+.speech-bubble br {
+    display: none;
+} 
+
+@media (max-width: 600px) {
+    .search-wrapper,
+    nav .container,
+    #content,
+    #render-area {
+        width: 90%;
+    }
+    .fumika {
+        min-width: 90px;
+    }
+    .fumika img {
+        width: 90px;
+    }
+    .speech-bubble br {
+        display: block;
+    }
+}
+
+
