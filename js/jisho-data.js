@@ -3788,7 +3788,7 @@ var jisho = [{
     "type": "move",
     "english": "Revelation Dance",
     "japanese": "めざめるダンス",
-    "katakana": "メ���メルダンス",
+    "katakana": "メザメルダンス",
     "roumaji": "Mezameru Dansu"
 }, {
     "type": "move",
@@ -5539,7 +5539,7 @@ var jisho = [{
 }, {
     "type": "Pokémon",
     "english": "Pelipper",
-    "japanese": "ペリッ���ー",
+    "japanese": "ペリッパー",
     "katakana": "ペリッパー",
     "roumaji": "Pelipper"
 }, {
@@ -7303,7 +7303,7 @@ var jisho = [{
 }, {
     "type": "Pokémon",
     "english": "Cinccino",
-    "japanese": "チラ���ーノ",
+    "japanese": "チラチーノ",
     "katakana": "チラチーノ",
     "roumaji": "Chillaccino"
 }, {
@@ -11948,7 +11948,7 @@ var jisho = [{
     "type": "item",
     "english": "Orange Mail",
     "japanese": "オレンジメール",
-    "katakana": "オレンジメ���ル",
+    "katakana": "オレンジメール",
     "roumaji": "Orange Mail"
 }, {
     "type": "item",
