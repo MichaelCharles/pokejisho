@@ -24,6 +24,12 @@ $("document").ready(function() {
         currentLanguage = "ja";
     }
     
+    if (currentLanguage = "ja") {
+        setCookie("lang", "ja", 365);
+    } else {
+        setCookie("lang", "en", 365)
+    }
+    
     $(".help-button").click(function(){
         $("#content").fadeIn(500);
         $(".help-button").fadeOut(500);
