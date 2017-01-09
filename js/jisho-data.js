@@ -9982,7 +9982,31 @@ var jisho = [{
     "japanese": "ビビリだま",
     "katakana": "ビビリダマ",
     "roumaji": "Scare Orb"
-},{
+}, {
+    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Yellow_Nectar",
+    "english": "Yellow Nectar",
+    "japanese": "やまぶきのミツ",
+    "katakana": "ヤマブキノミツ",
+    "roumaji": "Golden Yellow Nectar"
+}, {
+    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Red_Nectar",
+    "english": "Red Nectar",
+    "japanese": "くれないのミツ ",
+    "katakana": "クレナイノミツ",
+    "roumaji": "Crimson Nectar"
+}, {
+    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Purple_Nectar",
+    "english": "Purple Nectar",
+    "japanese": "むらさきのミツ",
+    "katakana": "ムラサキノミツ",
+    "roumaji": "Purple Nectar"
+}, {
+    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Pink_Nectar",
+    "english": "Pink Nectar",
+    "japanese": "うすもものミツ",
+    "katakana": "ウスモモノミツ",
+    "roumaji": "Pale Pink Nectar"
+}, {
     "type": "item",
     "english": "Repel",
     "japanese": "むしよけスプレー",
