@@ -30,6 +30,9 @@ $("document").ready(function() {
         setCookie("lang", "en", 365)
     }
     
+    var $debug = $('Temp debug info: Language is set to "' + getCookie("lang") + '"');
+    $("#content").append($debug);
+    
     $(".help-button").click(function(){
         $("#content").fadeIn(500);
         $(".help-button").fadeOut(500);
