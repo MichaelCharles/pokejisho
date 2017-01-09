@@ -150,6 +150,10 @@ nav .container h1 {
     display: none;
 } 
 
+.language-select br {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .search-wrapper,
     nav .container,
@@ -163,6 +167,7 @@ nav .container h1 {
     .sagumi img {
         width: 90px;
     }
+    .language-select br,
     .speech-bubble br {
         display: block;
     }
