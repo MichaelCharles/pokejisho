@@ -38,11 +38,10 @@ $("document").ready(function() {
 });
 
 function searchFor(term) {
-    term = term.replace("é", "e");
-    var cTerm = term.toLowerCase().split(" ").join("");
+    var cTerm = term.toLowerCase().split(" ").join("").replace("é", "e");
     for (i = 0; i < jisho.length; i++) {
         $.each(jisho[i], function(key, value) {
-            var cValue = value.toString().toLowerCase().split(" ").join("");
+            var cValue = value.toString().toLowerCase().split(" ").join("").replace("é", "e");
             if (key !== "type") {
                 if (cValue.includes(cTerm)) {
                     var result = jisho[i];
