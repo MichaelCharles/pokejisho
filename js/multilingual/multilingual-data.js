@@ -903,12 +903,12 @@ var jisho = [
   },
   {
     "type": "Pokémon",
-    "english": "Farfetch’d",
+    "english": "Farfetch'd",
     "japanese": "カモネギ",
     "french": "Canarticho",
     "german": "Porenta",
-    "italian": "Farfetch’d",
-    "spanish": "Farfetch’d",
+    "italian": "Farfetch'd",
+    "spanish": "Farfetch'd",
     "korean": "파오리",
     "chinese": "大葱鸭"
   },

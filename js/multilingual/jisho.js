@@ -38,10 +38,10 @@ $("document").ready(function() {
 });
 
 function searchFor(term) {
-    var cTerm = term.toLowerCase().split(" ").join("").replace("é", "e");
+    var cTerm = term.toLowerCase().split(" ").join("").replace("é", "e").replace("’", "'");
     for (i = 0; i < jisho.length; i++) {
         $.each(jisho[i], function(key, value) {
-            var cValue = value.toString().toLowerCase().split(" ").join("").replace("é", "e");
+            var cValue = value.toString().toLowerCase().split(" ").join("").replace("é", "e").replace("’", "'");
             if (key !== "type") {
                 if (cValue.includes(cTerm)) {
                     var result = jisho[i];
