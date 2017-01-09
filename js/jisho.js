@@ -53,13 +53,16 @@ function searchFor(term, convertKana) {
     var katakanaTerm = toKatakana(term);
     if (convertKana) {
         for (i = 0; i < jisho.length; i++) {
-            if (jisho[i].english.toLowerCase().includes(term.toLowerCase()) ||
+            cTerm = term.toLowerCase().split(" ").join("");
+            cResultEnglish = jisho[i].english.toLowerCase().split(" ").join("");
+            cRoumaji = jisho[i].roumaji.toLowerCase().split(" ").join("");
+            if (cResultEnglish.includes(cTerm) ||
                 jisho[i].katakana.includes(katakanaTerm) ||
-                jisho[i].roumaji.toLowerCase().includes(term.toLowerCase())) {
+                cRoumaji.includes(cTerm)) {
                 var result = jisho[i];
-                if (result.english.toLowerCase() === term.toLowerCase() ||
+                if (cResultEnglish === cTerm ||
                     result.katakana === katakanaTerm ||
-                    result.roumaji.toLowerCase() === term.toLowerCase()) {
+                    cRoumaji === cTerm) {
                     result.priority = 1;
                 }
                 activeData.push(result);
