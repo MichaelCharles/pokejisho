@@ -27,15 +27,10 @@ $("document").ready(function() {
     }
     
     if (currentLanguage === "ja") {
-        setCookie("lang", "ja", 365);
+        setCookie("language", "ja", 365);
     } else {
-        setCookie("lang", "en", 365)
+        setCookie("language", "en", 365)
     }
-    
-    var $debug = $("<p></p>");
-    $debug.html('Temp debug info: Language is set to "' + getCookie("lang") + '"' +
-    '<br>Page language is detected as "' + currentLanguage + '"');
-    $("#content").append($debug);
     
     $(".help-button").click(function(){
         $("#content").fadeIn(500);

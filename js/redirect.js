@@ -1,6 +1,6 @@
 /* global getCookie */
 
-var cookieLanguage = getCookie("lang");
+var cookieLanguage = getCookie("language");
 
 var pageLanguage = window.location.href.indexOf("jisho.com/ja") !== -1 ? "ja" : "en";
 var pageLanguage = window.location.href.indexOf("jisho.com/en") === -1 &&
