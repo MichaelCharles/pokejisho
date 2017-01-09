@@ -22,6 +22,8 @@ $("document").ready(function() {
     
     if (currentLocation.indexOf("/ja/") !== -1) {
         currentLanguage = "ja";
+    } else {
+        currentLanguage = "en";
     }
     
     if (currentLanguage = "ja") {
