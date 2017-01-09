@@ -12,6 +12,12 @@ var jisho = [{
     "roumaji": "Karate Chop"
 }, {
     "type": "move",
+    "english": "Infestation",
+    "japanese": "まとわりつく",
+    "katakana": "マトワリツク",
+    "roumaji": "Follow About"
+}, {
+    "type": "move",
     "english": "Double Slap",
     "japanese": "おうふくビンタ",
     "katakana": "オウフクビンタ",
