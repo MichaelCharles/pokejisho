@@ -9978,6 +9978,12 @@ var jisho = [{
     "roumaji": "Daruma Mode"
 }, {
     "type": "item",
+    "english": "Adrenaline Orb",
+    "japanese": "ビビリだま",
+    "katakana": "ビビリダマ",
+    "roumaji": "Scare Orb"
+},{
+    "type": "item",
     "english": "Repel",
     "japanese": "むしよけスプレー",
     "katakana": "ムシヨケスプレー",
