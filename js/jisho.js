@@ -33,7 +33,8 @@ $("document").ready(function() {
     }
     
     var $debug = $("<p></p>");
-    $debug.html('Temp debug info: Language is set to "' + getCookie("lang") + '"');
+    $debug.html('Temp debug info: Language is set to "' + getCookie("lang") + '"' +
+    '<br>Page language is detected as "' + currentLanguage + '"');
     $("#content").append($debug);
     
     $(".help-button").click(function(){
