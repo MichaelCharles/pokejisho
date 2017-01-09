@@ -17,3 +17,5 @@ function setCookie(cname, cvalue, exdays) {
     var expires = "expires="+d.toUTCString();
     document.cookie = cname + "=" + cvalue + "; " + expires + ";domain=.pokejisho.com;path=/";
 }
+
+// COOKIE COOKIE COOKIE STARTS WITH "C"
