@@ -26,7 +26,7 @@ $("document").ready(function() {
         currentLanguage = "en";
     }
     
-    if (currentLanguage = "ja") {
+    if (currentLanguage === "ja") {
         setCookie("lang", "ja", 365);
     } else {
         setCookie("lang", "en", 365)
