@@ -13,9 +13,6 @@ $("document").ready(function() {
         placeholderName += ", " + phD.roumaji
     }
     placeholderName += ", " + phD.japanese;
-    if (phD.katakana !== phD.japanese) {
-        placeholderName += ", " + phD.katakana
-    }
     placeholderName += "...";
     $("#term").attr("placeholder", placeholderName);
     
