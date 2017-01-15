@@ -9983,6 +9983,18 @@ var jisho = [{
     "katakana": "ビビリダマ",
     "roumaji": "Scare Orb"
 }, {
+    "type": "item",
+    "english": "Bottle Cap",
+    "japanese": "ぎんのおうかん",
+    "katakana": "ギンノオウカン",
+    "roumaji": "Silver Bottle Cap"
+},  {
+    "type": "item",
+    "english": "Gold Bottle Cap",
+    "japanese": "きんのおうかん",
+    "katakana": "キンノオウカン",
+    "roumaji": "Gold Bottle Cap"
+}, {
     "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Yellow_Nectar",
     "english": "Yellow Nectar",
     "japanese": "やまぶきのミツ",
@@ -13399,7 +13411,7 @@ var jisho = [{
 }, {
     "type": "item",
     "english": "Sapphire",
-    "japanese": "サファイア",
+    "japanese": "サファイ���",
     "katakana": "サファイア",
     "roumaji": "Sapphire"
 }, {

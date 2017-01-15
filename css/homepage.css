@@ -30,7 +30,7 @@ a:hover {
     width: 80%;
     margin: 0 auto;
     margin-top: 1em;
-    height: 50vh;
+    height: 35vh;
     background: url("/img/big-logo.png");
     background-size: contain;
     background-position: center;
@@ -38,8 +38,20 @@ a:hover {
     
 }
 
+h1 {
+    text-align: center;
+    font-family: "Noto Japanese" Roboto, sans-serif;
+    color: #212121;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.green {
+    color: #CDDC39;
+}
+
 .language-select {
-    margin-top: 1em;
+    padding-top: 0;
     padding: 1em;
     text-align: center;
 }
