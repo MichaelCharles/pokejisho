@@ -1,3 +1,7 @@
+.spacer {
+    font-size: 1px;
+}
+
 body {
     background-color: #f2f2f2;
     color: #212121;
@@ -51,8 +55,9 @@ h1 {
 }
 
 .language-select {
+    
+    margin: 1em;
     padding-top: 0;
-    padding: 1em;
     text-align: center;
 }
 
@@ -72,4 +77,16 @@ h1 {
 
 .language-select a:hover {
     box-shadow: 0px 4px 4px 0px rgba(33,33,33,0.3);
+}
+
+.footer-content {
+    margin: 1em;
+    margin-top: 2em;
+    color: #616161;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 32px;
+    }
 }
