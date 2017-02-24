@@ -23,8 +23,12 @@ a:hover {
 }
 
 nav .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
@@ -33,8 +37,12 @@ nav .container {
 }
 
 nav .container div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 nav .container img {
@@ -81,8 +89,12 @@ nav .container h1 {
 }
 
 .result {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: #fff;
     box-shadow: 0px 2px 3px 0px rgba(33,33,33,0.3);
     margin-bottom: 1px;
@@ -103,8 +115,12 @@ nav .container h1 {
 }
 
 #content .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .left-description {
