@@ -10,8 +10,8 @@ $("document").ready(function() {
     /*    var placeholderID = Math.floor(Math.random() * jisho.length);
         var phD = jisho[placeholderID];
         var placeholderName = phD.english
-        if (phD.english !== phD.roumaji) {
-            placeholderName += ", " + phD.roumaji
+        if (phD.english !== phD.romaji) {
+            placeholderName += ", " + phD.romaji
         }
         placeholderName += ", " + phD.japanese;
         placeholderName += "...";

@@ -9,8 +9,8 @@ $("document").ready(function() {
     var placeholderID = Math.floor(Math.random() * jisho.length);
     var phD = jisho[placeholderID];
     var placeholderName = phD.english
-    if (phD.english !== phD.roumaji) {
-        placeholderName += ", " + phD.roumaji
+    if (phD.english !== phD.romaji) {
+        placeholderName += ", " + phD.romaji
     }
     placeholderName += ", " + phD.japanese;
     placeholderName += "...";
@@ -55,14 +55,14 @@ function searchFor(term, convertKana) {
         for (i = 0; i < jisho.length; i++) {
             cTerm = term.toLowerCase().split(" ").join("");
             cResultEnglish = jisho[i].english.toLowerCase().split(" ").join("");
-            cRoumaji = jisho[i].roumaji.toLowerCase().split(" ").join("");
+            cromaji = jisho[i].romaji.toLowerCase().split(" ").join("");
             if (cResultEnglish.includes(cTerm) ||
                 jisho[i].katakana.includes(katakanaTerm) ||
-                cRoumaji.includes(cTerm)) {
+                cromaji.includes(cTerm)) {
                 var result = jisho[i];
                 if (cResultEnglish === cTerm ||
                     result.katakana === katakanaTerm ||
-                    cRoumaji === cTerm) {
+                    cromaji === cTerm) {
                     result.priority = 1;
                 }
                 activeData.push(result);
@@ -73,11 +73,11 @@ function searchFor(term, convertKana) {
         for (i = 0; i < jisho.length; i++) {
             if (jisho[i].english.toLowerCase().includes(term.toLowerCase()) ||
                 jisho[i].japanese.includes(term) ||
-                jisho[i].roumaji.toLowerCase().includes(term.toLowerCase())) {
+                jisho[i].romaji.toLowerCase().includes(term.toLowerCase())) {
                 var result = jisho[i];
                 if (result.english.toLowerCase() === term.toLowerCase() ||
                     result.japanese === term ||
-                    result.roumaji.toLowerCase() === term.toLowerCase()) {
+                    result.romaji.toLowerCase() === term.toLowerCase()) {
                     result.priority = 1;
                 }
                 activeData.push(result);
