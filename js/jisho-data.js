@@ -13411,7 +13411,7 @@ var jisho = [{
 }, {
     "type": "item",
     "english": "Sapphire",
-    "japanese": "サファイ���",
+    "japanese": "サファイア",
     "katakana": "サファイア",
     "romaji": "Sapphire"
 }, {
