@@ -26048,7 +26048,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Adamant",
     "japanese": "いじっぱり",
     "french": "Rigide",
@@ -26059,7 +26059,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Bashful",
     "japanese": "てれや",
     "french": "Pudique",
@@ -26070,7 +26070,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Bold",
     "japanese": "ずぶとい",
     "french": "Assuré",
@@ -26081,7 +26081,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Brave",
     "japanese": "ゆうかん",
     "french": "Brave",
@@ -26092,7 +26092,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Calm",
     "japanese": "おだやか",
     "french": "Calme",
@@ -26103,7 +26103,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Careful",
     "japanese": "しんちょう",
     "french": "Prudent",
@@ -26114,7 +26114,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Docile",
     "japanese": "すなお",
     "french": "Docile",
@@ -26125,7 +26125,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Gentle",
     "japanese": "おとなしい",
     "french": "Gentil",
@@ -26136,7 +26136,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Hardy",
     "japanese": "がんばりや",
     "french": "Hardi",
@@ -26147,7 +26147,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Hasty",
     "japanese": "せっかち",
     "french": "Pressé",
@@ -26158,7 +26158,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Impish",
     "japanese": "わんぱく",
     "french": "Malin",
@@ -26169,7 +26169,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Jolly",
     "japanese": "ようき",
     "french": "Jovial",
@@ -26180,7 +26180,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Lax",
     "japanese": "のうてんき",
     "french": "Lâche",
@@ -26191,7 +26191,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Lonely",
     "japanese": "さみしがり",
     "french": "Solo",
@@ -26202,7 +26202,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Mild",
     "japanese": "おっとり",
     "french": "Doux",
@@ -26213,7 +26213,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Modest",
     "japanese": "ひかえめ",
     "french": "Modeste",
@@ -26224,7 +26224,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Naive",
     "japanese": "むじゃき",
     "french": "Naïf",
@@ -26235,7 +26235,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Naughty",
     "japanese": "やんちゃ",
     "french": "Mauvais",
@@ -26246,7 +26246,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Quiet",
     "japanese": "れいせい",
     "french": "Discret",
@@ -26257,7 +26257,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Quirky",
     "japanese": "きまぐれ",
     "french": "Bizarre",
@@ -26268,7 +26268,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Rash",
     "japanese": "うっかりや",
     "french": "Foufou",
@@ -26279,7 +26279,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Relaxed",
     "japanese": "のんき",
     "french": "Relax",
@@ -26290,7 +26290,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Sassy",
     "japanese": "なまいき",
     "french": "Malpoli",
@@ -26301,7 +26301,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Serious",
     "japanese": "まじめ",
     "french": "Sérieux",
@@ -26312,7 +26312,7 @@ var jisho = [
     "chinese": ""
   },
   {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#Specific_Natures",
     "english": "Timid",
     "japanese": "おくびょう",
     "french": "Timide",

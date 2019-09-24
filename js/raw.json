@@ -8681,13 +8681,13 @@
     "katakana": "マーシャドー",
     "romaji": "Marshadow"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Egg",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Egg",
     "english": "Egg",
     "japanese": "タマゴ",
     "katakana": "タマゴ",
     "romaji": "Tamago"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Bad_Egg",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Bad_Egg",
     "english": "Bad Egg",
     "japanese": "ダメタマゴ",
     "katakana": "ダメタマゴ",
@@ -9995,25 +9995,25 @@
     "katakana": "キンノオウカン",
     "romaji": "Gold Bottle Cap"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Yellow_Nectar",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nectar#Yellow_Nectar",
     "english": "Yellow Nectar",
     "japanese": "やまぶきのミツ",
     "katakana": "ヤマブキノミツ",
     "romaji": "Golden Yellow Nectar"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Red_Nectar",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nectar#Red_Nectar",
     "english": "Red Nectar",
     "japanese": "くれないのミツ ",
     "katakana": "クレナイノミツ",
     "romaji": "Crimson Nectar"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Purple_Nectar",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nectar#Purple_Nectar",
     "english": "Purple Nectar",
     "japanese": "むらさきのミツ",
     "katakana": "ムラサキノミツ",
     "romaji": "Purple Nectar"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nectar#Pink_Nectar",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nectar#Pink_Nectar",
     "english": "Pink Nectar",
     "japanese": "うすもものミツ",
     "katakana": "ウスモモノミツ",
@@ -14291,151 +14291,151 @@
     "katakana": "バトルディスク",
     "romaji": "Battle Disk"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Adamant",
     "japanese": "いじっぱり",
     "katakana": "イジッパリ",
     "romaji": "Ijippari"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Bashful",
     "japanese": "てれや",
     "katakana": "テレヤ",
     "romaji": "Tereya"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Bold",
     "japanese": "ずぶとい",
     "katakana": "ズブトイ",
     "romaji": "Zubutoi"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Brave",
     "japanese": "ゆうかん",
     "katakana": "ユウカン",
     "romaji": "Yuukan"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Calm",
     "japanese": "おだやか",
     "katakana": "オダヤカ",
     "romaji": "Odayaka"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Careful",
     "japanese": "しんちょう",
     "katakana": "シンチョウ",
     "romaji": "Shinchou"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Docile",
     "japanese": "すなお",
     "katakana": "スナオ",
     "romaji": "Sunao"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Gentle",
     "japanese": "おとなしい",
     "katakana": "オトナシイ",
     "romaji": "Otonashii"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Hardy",
     "japanese": "がんばりや",
     "katakana": "ガンバリヤ",
     "romaji": "Ganbariya"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Hasty",
     "japanese": "せっかち",
     "katakana": "セッカチ",
     "romaji": "Sekkachi"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Impish",
     "japanese": "わんぱく",
     "katakana": "ワンパク",
     "romaji": "Wanpaku"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Jolly",
     "japanese": "ようき",
     "katakana": "ヨウキ",
     "romaji": "Youki"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Lax",
     "japanese": "のうてんき",
     "katakana": "ノウテンキ",
     "romaji": "Noutenki"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Lonely",
     "japanese": "さみしがり",
     "katakana": "サミシガリ",
     "romaji": "Samishigari"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Mild",
     "japanese": "おっとり",
     "katakana": "オットリ",
     "romaji": "Ottori"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Modest",
     "japanese": "ひかえめ",
     "katakana": "ヒカエメ",
     "romaji": "Hikaeme"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Naive",
     "japanese": "むじゃき",
     "katakana": "ムジャキ",
     "romaji": "Mujaki"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Naughty",
     "japanese": "やんちゃ",
     "katakana": "ヤンチャ",
     "romaji": "Yancha"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Quiet",
     "japanese": "れいせい",
     "katakana": "レイセイ",
     "romaji": "Reisei"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Quirky",
     "japanese": "きまぐれ",
     "katakana": "キマグレ",
     "romaji": "Kimagure"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Rash",
     "japanese": "うっかりや",
     "katakana": "ウッカリヤ",
     "romaji": "Ukkariya"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Relaxed",
     "japanese": "のんき",
     "katakana": "ノンキ",
     "romaji": "Nonki"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Sassy",
     "japanese": "なまいき",
     "katakana": "ナマイキ",
     "romaji": "Namaiki"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Serious",
     "japanese": "まじめ",
     "katakana": "マジメ",
     "romaji": "Majime"
 }, {
-    "type": "http://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
+    "type": "https://bulbapedia.bulbagarden.net/wiki/Nature#List_of_Natures",
     "english": "Timid",
     "japanese": "おくびょう",
     "katakana": "オクビョウ",

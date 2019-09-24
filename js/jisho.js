@@ -106,15 +106,15 @@ function renderResult(array) {
     for (i = 0; i < array.length; i++) {
         var result = array[i];
         result.us = result.english.replace(/ /g, "_"); // Underscored Result Name for URL
-        result.urlJA = "http://wiki.xn--rckteqa2e.com/wiki/" + result.japanese;
+        result.urlJA = "https://wiki.xn--rckteqa2e.com/wiki/" + result.japanese;
         if (result.type === "move") {
-            result.url = "http://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(move)";
+            result.url = "https://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(move)";
         } else if (result.type === "Pokémon") {
-            result.url = "http://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(Pok%C3%A9mon)";
+            result.url = "https://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(Pok%C3%A9mon)";
         } else if (result.type === "item") {
-            result.url = "http://bulbapedia.bulbagarden.net/wiki/" + result.us;
+            result.url = "https://bulbapedia.bulbagarden.net/wiki/" + result.us;
         } else if (result.type === "Ability") {
-            result.url = "http://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(Ability)";
+            result.url = "https://bulbapedia.bulbagarden.net/wiki/" + result.us + "_(Ability)";
         } else {
             result.url = result.type;
         }

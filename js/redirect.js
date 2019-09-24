@@ -8,5 +8,5 @@ var pageLanguage = window.location.href.indexOf("jisho.com/en") === -1 &&
 var redirectDestination = pageLanguage === "" ? cookieLanguage : pageLanguage;
 
 if (redirectDestination !== "") {
-    window.location.replace("http://www.pokejisho.com/" + redirectDestination + "/jisho");
+    window.location.replace("https://www.pokejisho.com/" + redirectDestination + "/jisho");
 }
