@@ -18768,6 +18768,13 @@
   },
   {
     "type": "Pokémon",
+    "english": "Ninetails",
+    "japanese": "キュウコン",
+    "katakana": "キュウコン",
+    "romaji": "kyuukon"
+  },
+  {
+    "type": "Pokémon",
     "english": "Jigglypuff",
     "japanese": "プリン",
     "katakana": "プリン",
@@ -29608,5 +29615,768 @@
     "japanese": "ブレイジングソウルビート",
     "katakana": "ブレイジングソウルビート",
     "romaji": "bureijingusourubiito"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Sprigatito",
+    "japanese": "ニャオハ",
+    "katakana": "ニャオハ",
+    "romaji": "nyaoha"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Floragato",
+    "japanese": "ニャローテ",
+    "katakana": "ニャローテ",
+    "romaji": "nyarote"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Meowscarada",
+    "japanese": "マスカーニャ",
+    "katakana": "マスカーニャ",
+    "romaji": "masukanya"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Fuecoco",
+    "japanese": "ホゲータ",
+    "katakana": "ホゲータ",
+    "romaji": "hogeta"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Crocalor",
+    "japanese": "アチゲータ",
+    "katakana": "アチゲータ",
+    "romaji": "achigeta"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Skeledirge",
+    "japanese": "ラウドボーン",
+    "katakana": "ラウドボーン",
+    "romaji": "raudobon"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Quaxly",
+    "japanese": "クワッス",
+    "katakana": "クワッス",
+    "romaji": "kuwassu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Quaxwell",
+    "japanese": "ウェルカモ",
+    "katakana": "ウェルカモ",
+    "romaji": "uerukamo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Quaquaval",
+    "japanese": "ウェーニバル",
+    "katakana": "ウェーニバル",
+    "romaji": "uenibaru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Lechonk",
+    "japanese": "グルトン",
+    "katakana": "グルトン",
+    "romaji": "guruton"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Oinkologne",
+    "japanese": "パフュートン",
+    "katakana": "パフュートン",
+    "romaji": "pafuyuton"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tarountula",
+    "japanese": "タマンチュラ",
+    "katakana": "タマンチュラ",
+    "romaji": "tamanchura"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Spidopos",
+    "japanese": "ワナイダー",
+    "katakana": "ワナイダー",
+    "romaji": "wanaida"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Nymble",
+    "japanese": "マメバッタ",
+    "katakana": "マメバッタ",
+    "romaji": "mamebatta"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Lokix",
+    "japanese": "エクスレッグ",
+    "katakana": "エクスレッグ",
+    "romaji": "ekusureggu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Pawmi",
+    "japanese": "パモ",
+    "katakana": "パモ",
+    "romaji": "pamo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Pawmo",
+    "japanese": "パモット",
+    "katakana": "パモット",
+    "romaji": "pamotto"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Pawmot",
+    "japanese": "パーモット",
+    "katakana": "パーモット",
+    "romaji": "pamotto"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Clodsire",
+    "japanese": "ドオー",
+    "katakana": "ドオー",
+    "romaji": "doo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tandemaus",
+    "japanese": "ワッカネズミ",
+    "katakana": "ワッカネズミ",
+    "romaji": "wakkanezumi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Maushold",
+    "japanese": "イッカネズミ",
+    "katakana": "イッカネズミ",
+    "romaji": "ikkanezumi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Fidough",
+    "japanese": "パピモッチ",
+    "katakana": "パピモッチ",
+    "romaji": "papimotchi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Dachsbun",
+    "japanese": "バウッツェル",
+    "katakana": "バウッツェル",
+    "romaji": "bauttsueru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Smoliv",
+    "japanese": "ミニーブ",
+    "katakana": "ミニーブ",
+    "romaji": "minibu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Dolliv",
+    "japanese": "オリーニョ",
+    "katakana": "オリーニョ",
+    "romaji": "orinyo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Arboliva",
+    "japanese": "オリーヴァ",
+    "katakana": "オリーヴァ",
+    "romaji": "oriba"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Squawkabilly",
+    "japanese": "イキリンコ",
+    "katakana": "イキリンコ",
+    "romaji": "ikirinko"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Crawbrawler",
+    "japanese": "マケンカニ",
+    "katakana": "マケンカニ",
+    "romaji": "makenkani"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Nacli",
+    "japanese": "コジオ",
+    "katakana": "コジオ",
+    "romaji": "kojio"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Naclstack",
+    "japanese": "ジオヅム",
+    "katakana": "ジオヅム",
+    "romaji": "jiozumu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Garganacl",
+    "japanese": "キョジオーン",
+    "katakana": "キョジオーン",
+    "romaji": "kyojion"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Flabebe",
+    "japanese": "フラベベ",
+    "katakana": "フラベベ",
+    "romaji": "furabebe"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Annihilape",
+    "japanese": "コノヨザル",
+    "katakana": "コノヨザル",
+    "romaji": "konoyozaru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Charcadet",
+    "japanese": "カルボウ",
+    "katakana": "カルボウ",
+    "romaji": "karubou"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Armarouge",
+    "japanese": "グレンアルマ",
+    "katakana": "グレンアルマ",
+    "romaji": "gurenaruma"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Ceruledge",
+    "japanese": "ソウブレイズ",
+    "katakana": "ソウブレイズ",
+    "romaji": "soubureizu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tadbulb",
+    "japanese": "ズピカ",
+    "katakana": "ズピカ",
+    "romaji": "zupika"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Bellibolt",
+    "japanese": "ハラバリー",
+    "katakana": "ハラバリー",
+    "romaji": "harabari"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Wattrel",
+    "japanese": "カイデン",
+    "katakana": "カイデン",
+    "romaji": "kaiden"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Kilowattrel",
+    "japanese": "タイカイデン",
+    "katakana": "タイカイデン",
+    "romaji": "taikaiden"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Dudunsparce",
+    "japanese": "ノココッチ",
+    "katakana": "ノココッチ",
+    "romaji": "nokokotchi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Farigiraf",
+    "japanese": "リキキリン",
+    "katakana": "リキキリン",
+    "romaji": "rikikirin"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Maschiff",
+    "japanese": "オラチフ",
+    "katakana": "オラチフ",
+    "romaji": "orachifu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Mabosstiff",
+    "japanese": "マフィティフ",
+    "katakana": "マフィティフ",
+    "romaji": "mafuiteifu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Shroodle",
+    "japanese": "シルシュルー",
+    "katakana": "シルシュルー",
+    "romaji": "shirushuru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Grafaiai",
+    "japanese": "タギングル",
+    "katakana": "タギングル",
+    "romaji": "taginguru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Magnetite",
+    "japanese": "レアコイル",
+    "katakana": "レアコイル",
+    "romaji": "reakoiru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Bramblin",
+    "japanese": "アノクサ",
+    "katakana": "アノクサ",
+    "romaji": "anokusa"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Brambleghast",
+    "japanese": "アノホラグサ",
+    "katakana": "アノホラグサ",
+    "romaji": "anohoragusa"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Toedscool",
+    "japanese": "ノノクラゲ",
+    "katakana": "ノノクラゲ",
+    "romaji": "nonokurage"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Toedscruel",
+    "japanese": "リククラゲ",
+    "katakana": "リククラゲ",
+    "romaji": "rikukurage"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Klawf",
+    "japanese": "ガケガニ",
+    "katakana": "ガケガニ",
+    "romaji": "gakegani"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Capsakid",
+    "japanese": "カプサイジ",
+    "katakana": "カプサイジ",
+    "romaji": "kapusaiji"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Scovillain",
+    "japanese": "スコヴィラン",
+    "katakana": "スコヴィラン",
+    "romaji": "sukobiran"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Rellor",
+    "japanese": "シガロコ",
+    "katakana": "シガロコ",
+    "romaji": "shigaroko"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Rabsca",
+    "japanese": "ベラカス",
+    "katakana": "ベラカス",
+    "romaji": "berakasu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Flittle",
+    "japanese": "ヒラヒナ",
+    "katakana": "ヒラヒナ",
+    "romaji": "hirahina"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Espathra",
+    "japanese": "クエスパトラ",
+    "katakana": "クエスパトラ",
+    "romaji": "kuesupatora"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Hoppopowdon",
+    "japanese": "カバルドン",
+    "katakana": "カバルドン",
+    "romaji": "kabarudon"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tinkatink",
+    "japanese": "カヌチャン",
+    "katakana": "カヌチャン",
+    "romaji": "kanuchan"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tinkatuff",
+    "japanese": "ナカヌチャン",
+    "katakana": "ナカヌチャン",
+    "romaji": "nakanuchan"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tinkaton",
+    "japanese": "デカヌチャン",
+    "katakana": "デカヌチャン",
+    "romaji": "dekanuchan"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Wiglett",
+    "japanese": "ウミディグダ",
+    "katakana": "ウミディグダ",
+    "romaji": "umideiguda"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Wugtrio",
+    "japanese": "ウミトリオ",
+    "katakana": "ウミトリオ",
+    "romaji": "umitorio"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Bombirdier",
+    "japanese": "オトシドリ",
+    "katakana": "オトシドリ",
+    "romaji": "otoshidori"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Finizen",
+    "japanese": "ナミイルカ",
+    "katakana": "ナミイルカ",
+    "romaji": "namiiruka"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Finizen Evo?",
+    "japanese": "イルカマン",
+    "katakana": "イルカマン",
+    "romaji": "irukaman"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Varoom",
+    "japanese": "ブロロン",
+    "katakana": "ブロロン",
+    "romaji": "buroron"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Revavroom",
+    "japanese": "ブロロローム",
+    "katakana": "ブロロローム",
+    "romaji": "burororomu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Cyclizar",
+    "japanese": "モトトカゲ",
+    "katakana": "モトトカゲ",
+    "romaji": "mototokage"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Orthworm",
+    "japanese": "ミミズズ",
+    "katakana": "ミミズズ",
+    "romaji": "mimizuzu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Glimmet",
+    "japanese": "キラーメ",
+    "katakana": "キラーメ",
+    "romaji": "kirame"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Glimmora",
+    "japanese": "キラフロル",
+    "katakana": "キラフロル",
+    "romaji": "kirafuroru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Greavard",
+    "japanese": "ボチ",
+    "katakana": "ボチ",
+    "romaji": "bochi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Houndstone",
+    "japanese": "ハカドッグ",
+    "katakana": "ハカドッグ",
+    "romaji": "hakadoggu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Elektrik",
+    "japanese": "シビビール",
+    "katakana": "シビビール",
+    "romaji": "shibibiru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Elektross",
+    "japanese": "シビルドン",
+    "katakana": "シビルドン",
+    "romaji": "shibirudon"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Flamigo",
+    "japanese": "カラミンゴ",
+    "katakana": "カラミンゴ",
+    "romaji": "karamingo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Cetoddle",
+    "japanese": "アルクジラ",
+    "katakana": "アルクジラ",
+    "romaji": "arukujira"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Cetitan",
+    "japanese": "ハルクジラ",
+    "katakana": "ハルクジラ",
+    "romaji": "harukujira"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Kingambit",
+    "japanese": "ドドゲザン",
+    "katakana": "ドドゲザン",
+    "romaji": "dodogezan"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Veluza",
+    "japanese": "ミガルーサ",
+    "katakana": "ミガルーサ",
+    "romaji": "migarusa"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Dondozo",
+    "japanese": "ヘイラッシャ",
+    "katakana": "ヘイラッシャ",
+    "romaji": "heirassha"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Tatsugiri",
+    "japanese": "シャリタツ",
+    "katakana": "シャリタツ",
+    "romaji": "sharitatsu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Great Tusk",
+    "japanese": "イダイナキバ",
+    "katakana": "イダイナキバ",
+    "romaji": "idainakiba"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Scream Tail",
+    "japanese": "サケブシッポ",
+    "katakana": "サケブシッポ",
+    "romaji": "sakebushippo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Brute Bonnet",
+    "japanese": "アラブルタケ",
+    "katakana": "アラブルタケ",
+    "romaji": "araburutake"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Flutter Mane",
+    "japanese": "ハバタクカミ",
+    "katakana": "ハバタクカミ",
+    "romaji": "habatakukami"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Slither Wing",
+    "japanese": "チヲハウハネ",
+    "katakana": "チヲハウハネ",
+    "romaji": "chiohauhane"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Sandy Shocks",
+    "japanese": "スナノケガワ",
+    "katakana": "スナノケガワ",
+    "romaji": "sunanokegawa"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Treads",
+    "japanese": "テツノワダチ",
+    "katakana": "テツノワダチ",
+    "romaji": "tetsunowadachi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Bundle",
+    "japanese": "テツノツツミ",
+    "katakana": "テツノツツミ",
+    "romaji": "tetsunotsutsumi"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Hands",
+    "japanese": "テツノカイナ",
+    "katakana": "テツノカイナ",
+    "romaji": "tetsunokaina"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Jugulis",
+    "japanese": "テツノコウベ",
+    "katakana": "テツノコウベ",
+    "romaji": "tetsunokoube"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Moth",
+    "japanese": "テツノドクガ",
+    "katakana": "テツノドクガ",
+    "romaji": "tetsunodokuga"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Thorns",
+    "japanese": "テツノイバラ",
+    "katakana": "テツノイバラ",
+    "romaji": "tetsunoibara"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Frigibax",
+    "japanese": "セビエ",
+    "katakana": "セビエ",
+    "romaji": "sebie"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Artibax",
+    "japanese": "セゴール",
+    "katakana": "セゴール",
+    "romaji": "segoru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Baxcalibur",
+    "japanese": "セグレイブ",
+    "katakana": "セグレイブ",
+    "romaji": "segureibu"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Gimmighoul",
+    "japanese": "コレクレー",
+    "katakana": "コレクレー",
+    "romaji": "korekure"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Ghouldengo",
+    "japanese": "サーフゴー",
+    "katakana": "サーフゴー",
+    "romaji": "safugo"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Wo-Chien",
+    "japanese": "チオンジェン",
+    "katakana": "チオンジェン",
+    "romaji": "chionjien"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Chien-Pao",
+    "japanese": "パオジアン",
+    "katakana": "パオジアン",
+    "romaji": "paojian"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Ting-Lu",
+    "japanese": "ディンルー",
+    "katakana": "ディンルー",
+    "romaji": "deinru"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Chi-Yu",
+    "japanese": "イーユイ",
+    "katakana": "イーユイ",
+    "romaji": "iyui"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Roaring Moon",
+    "japanese": "トドロクツキ",
+    "katakana": "トドロクツキ",
+    "romaji": "todorokutsuki"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Iron Valiant",
+    "japanese": "テツノブジン",
+    "katakana": "テツノブジン",
+    "romaji": "tetsunobujin"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Koraidon",
+    "japanese": "コライドン",
+    "katakana": "コライドン",
+    "romaji": "koraidon"
+  },
+  {
+    "type": "Pokémon",
+    "english": "Miraidon",
+    "japanese": "ミライドン",
+    "katakana": "ミライドン",
+    "romaji": "miraidon"
   }
 ]
