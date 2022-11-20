@@ -1,5 +1,9 @@
 # PokéJisho
 
+## Added Pokémon from Scarlet and Violet, and Ninetails!
+
+I added in the Pokémon from Scarlet and Violet. Also, for some mysterious reason, Ninetails has been absent from this dictionary since... forever. So I added Ninetails.
+
 ## Support Pokémon Sword and Shield! (Updated Feburary 25, 2020)
 
 The translation data for this project was updated on February 25, 2020. PokéJisho should now support the majority of games up to and incuding Sword and Shield. I've come up with a way to update the data which I think will make it easier to keep PokéJisho up-to-date going forward.
