@@ -50,7 +50,7 @@ $("document").ready(function () {
 });
 
 function searchFor(term, convertKana) {
-  term = term.replace("é", "e");
+  term = term.replace(/é/g, "e");
   var katakanaTerm = toKatakana(term);
   if (convertKana) {
     for (i = 0; i < jisho.length; i++) {
@@ -60,11 +60,13 @@ function searchFor(term, convertKana) {
         .split(" ")
         .join("");
       cResultEnglish = jisho[i].english
+        .replace(/é/g, "e")
         .toLowerCase()
         .split(" ")
         .join("");
 
       cromaji = jisho[i].romaji
+        .replace(/é/g, "e")
         .toLowerCase()
         .split(" ")
         .join("");
@@ -75,13 +77,12 @@ function searchFor(term, convertKana) {
         cromaji.includes(cTerm)
       ) {
         var result = jisho[i];
-        if (
+        result.priority =
           cResultEnglish === cTerm ||
           result.katakana === katakanaTerm ||
           cromaji === cTerm
-        ) {
-          result.priority = 1;
-        }
+            ? 1
+            : 0;
         activeData.push(result);
       }
     }
