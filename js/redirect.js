@@ -13,6 +13,6 @@ var redirectDestination = pageLanguage === "" ? cookieLanguage : pageLanguage;
 
 if (redirectDestination !== "") {
   window.location.replace(
-    "https://old.pokejisho.com/" + redirectDestination + "/jisho"
+    "/" + redirectDestination + "/jisho"
   );
 }
