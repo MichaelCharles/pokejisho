@@ -1,5 +1,11 @@
 # PokéJisho
 
+## All currently released games are now covered, with a new update pipeline! (Updated June 25, 2026)
+
+I built a new tool that pulls dictionary data directly from [PokéAPI](https://pokeapi.co/), which should make it much easier to keep PokéJisho up to date from here on out. Using it, I refreshed the dictionary and filled in enough content to cover every Pokémon game released so far.
+
+You may need to clear your browser cache to see the update on [the PokéJisho website](https://www.pokejisho.com).
+
 ## Added Pokémon from Scarlet and Violet, and Ninetails! (Updated November 20, 2022)
 
 I added in the Pokémon from Scarlet and Violet. Also, for some mysterious reason, Ninetails has been absent from this dictionary since... forever. So I added Ninetails.
