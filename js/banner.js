@@ -20,6 +20,16 @@
 
     var id = el.getAttribute("data-banner-id") || "";
 
+    // Auto-expire safety net: never show past data-banner-expires (YYYY-MM-DD),
+    // so a forgotten banner disappears on its own. Remove the markup to retire it.
+    var expires = el.getAttribute("data-banner-expires");
+    if (expires) {
+        var expiry = new Date(expires + "T23:59:59"); // end of that day, local time
+        if (!isNaN(expiry.getTime()) && new Date() > expiry) {
+            return; // expired; leave it hidden
+        }
+    }
+
     var dismissed = null;
     try {
         dismissed = localStorage.getItem(KEY);
