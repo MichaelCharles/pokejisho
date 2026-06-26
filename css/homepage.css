@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #f2f2f2;
-    color: #212121;
+    background-color: var(--color-bg);
+    color: var(--color-text);
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Japanese", "Roboto", sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -15,12 +15,12 @@ body {
 a:link,
 a:active,
 a:visited {
-    color: #3F51B5;
+    color: var(--color-link);
     text-decoration: none;
 }
 
 a:hover {
-    color: #536DFE;
+    color: var(--color-link-hover);
 }
 
 .homepage-container {
@@ -45,13 +45,13 @@ a:hover {
 h1 {
     text-align: center;
     font-family: "Noto Japanese" Roboto, sans-serif;
-    color: #212121;
+    color: var(--color-text);
     font-size: 64px;
     font-weight: 700;
 }
 
 .green {
-    color: #CDDC39;
+    color: var(--color-accent);
 }
 
 .language-select {
@@ -63,27 +63,27 @@ h1 {
 
 .language-select a {
     display: inline-block;
-    background: white;
+    background: var(--color-surface);
     padding: 1em;
     text-align:center;
     max-width: 100px;
     width: 100%;
     margin: 0.5em;
-    box-shadow: 0px 2px 4px 0px rgba(33,33,33,0.3);
+    box-shadow: 0px 2px 4px 0px var(--color-shadow);
     text-transform: uppercase;
-    color: #212121;
+    color: var(--color-text);
     -webkit-transition: all 300ms;
     transition: all 300ms;
 }
 
 .language-select a:hover {
-    box-shadow: 0px 4px 4px 0px rgba(33,33,33,0.3);
+    box-shadow: 0px 4px 4px 0px var(--color-shadow);
 }
 
 .footer-content {
     margin: 1em;
     margin-top: 2em;
-    color: #616161;
+    color: var(--color-text-secondary);
 }
 
 @media (max-width: 400px) {

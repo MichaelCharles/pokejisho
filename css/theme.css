@@ -1,0 +1,88 @@
+/*
+ * Theme tokens + the dark/light toggle button.
+ *
+ * Light values reproduce the site's original palette unchanged. Dark values
+ * mirror the PokéJisho iOS app's dark appearance (iOS system semantic colors:
+ * black base, #1C1C1E elevated surfaces, white / secondary-gray text), with a
+ * lightened indigo for links/accents so they read on dark backgrounds.
+ *
+ * Resolution:
+ *   - no [data-theme]            -> follows the OS via prefers-color-scheme
+ *   - [data-theme="light"]       -> forced light (also blocks the dark media query)
+ *   - [data-theme="dark"]        -> forced dark
+ * theme.js sets the attribute (and an inline <head> snippet applies the stored
+ * choice before first paint to avoid a flash).
+ */
+
+:root {
+    --color-bg: #f2f2f2;
+    --color-surface: #ffffff;
+    --color-text: #212121;
+    --color-text-secondary: #646464;
+    --color-link: #3f51b5;
+    --color-link-hover: #536dfe;
+    --color-shadow: rgba(33, 33, 33, 0.3);
+    --color-accent: #cddc39;
+}
+
+/* Dark values, shared by the OS-preference path and the forced path. */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --color-bg: #000000;
+        --color-surface: #1c1c1e;
+        --color-text: #f5f5f7;
+        --color-text-secondary: rgba(235, 235, 245, 0.6);
+        --color-link: #8c9eff;
+        --color-link-hover: #b0bcff;
+        --color-shadow: rgba(0, 0, 0, 0.6);
+        --color-accent: #cddc39;
+    }
+}
+
+:root[data-theme="dark"] {
+    --color-bg: #000000;
+    --color-surface: #1c1c1e;
+    --color-text: #f5f5f7;
+    --color-text-secondary: rgba(235, 235, 245, 0.6);
+    --color-link: #8c9eff;
+    --color-link-hover: #b0bcff;
+    --color-shadow: rgba(0, 0, 0, 0.6);
+    --color-accent: #cddc39;
+}
+
+/* Toggle button — fixed top-right so it works on every page regardless of layout. */
+.theme-toggle {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    box-shadow: 0px 2px 6px 0px var(--color-shadow);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: box-shadow 200ms, background-color 200ms, color 200ms;
+    transition: box-shadow 200ms, background-color 200ms, color 200ms;
+}
+
+.theme-toggle:hover {
+    box-shadow: 0px 4px 8px 0px var(--color-shadow);
+}
+
+.theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
